@@ -1,7 +1,5 @@
 import 'package:apps_muhamad_mashudi_ardi_winata/soal_4_5/entity/random_photo.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 class Soal5Page extends StatelessWidget {
   final RandomPhoto randomPhoto;
