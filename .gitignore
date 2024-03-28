@@ -42,5 +42,14 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
-*/*.g.dart
-*/*.freezed.dart
+# others
+/lib/gen/*
+pubspec.lock
+*.hive
+*_keys.lock
+/*_collection/*.hive
+/*_collection/*.lock
+
+# remove generated file
+*.freezed.dart
+*.g.dart
